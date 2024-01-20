@@ -1,0 +1,57 @@
+.card-regex{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #fff875;
+    border-radius: 10px;
+    color: #f2f2f2;
+    font-weight: bold;
+    width: 60vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-regex__title{
+    color: #92c8c6;
+    margin-top: 0;
+}
+
+.form-regex{
+    background-color: #ffd080;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-regex__label{
+    font-size: 1.5rem;
+
+    
+}
+
+.form-regex__input{
+    color: #2f2f2f;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 90%;
+    height: 1.8rem;
+    background-color: #b2d8a2;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-regex__input:focus{
+    border: solid 3px #92c8c6;
+    outline: none;
+}
+
+.form-regex__invalid{
+    color: #ff998a;
+}

@@ -1,0 +1,42 @@
+.lexical{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.lexical__row1{
+    display: flex;
+    width: 100%;
+}
+
+.lexical__area{
+    resize: none;
+    height: 190px;
+    width: 21.875rem;
+    font-size: 1.2rem;
+   
+    border: solid 3px #eef7f2;
+    border-radius: 5px;
+    outline: none;
+}
+.lexical__btn{
+    
+    margin-bottom: 20px;
+    background-color: #bd5192;
+
+}
+.--clean{
+background-color: #ff6461;
+}
+
+.lexical__title{
+    width: 100%;
+    color: #f2f2f2;
+}
+
+.table{
+    width: 80%;
+    border: solid 3px #f2f2f2;
+    border-radius: 5px;
+    background-color: #2f2f2f;
+}
